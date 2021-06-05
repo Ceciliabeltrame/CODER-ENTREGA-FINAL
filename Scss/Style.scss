@@ -303,17 +303,20 @@ footer {
     margin: 3%;
     justify-content: center;
     align-content: center;
-    height: 700px;
+    margin: -5% 3% 3% 3%;
+    height: 650px;
     width: auto;
     border: 2px solid $third-color;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .carrito_container_productos {
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     width: 70%;
     border-right: 2px dotted $third-color;
+    color: $third-color;
+    text-transform: uppercase;
 }
 
 .carrito_container_box {
@@ -324,26 +327,29 @@ footer {
 
 
 .carrito_container_detalle {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     margin-top: 20px;
-    padding: 20px;
-    background-color: $fourth-color;
+    padding: 2px;
+    color: $third-color;
+    text-transform: uppercase;
 }
 
 
 .carrito_container_descuento {
     margin-top: 100%;
     padding: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
     input {
         border:none;
-        width: 220px;
-    } }
-
-
-.total {
+        width: 100%;
+    } 
+    h4 {
     margin-top: 10px;
-    background-color: $fourth-color;
-}
+    color:$third-color;
+    font-size: 18px;
+} } 
 
 .main_carrito {
     margin-top: 150px;
@@ -353,15 +359,16 @@ footer {
 
 /* TARJETAS - MEDIOS DE PAGO - CARRITO HTML */
 
-.tarjetas__container {
-    display: inline-block;
-    background-color: #2b1717;
+.tarjetas_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
     img {
         margin: 5px;
         padding: 2px;
         width: 70px;
         position: relative;
-        left: 7%;
+
     } }
 
 /* FIN DE TARJETAS - MEDIOS DE PAGO - CARRITO HTML */
@@ -406,7 +413,7 @@ footer {
 
 .nosotros_info {
     position: relative;
-    height: 700px;
+    height: 500px;
     top: 100px;
     h1 {
         text-align: center;
@@ -414,8 +421,11 @@ footer {
     }   p {
         text-align: center;
         position: relative;
+        font-family:'Asap', sans-serif;
         top: 40px;
-    } }
+        width: 80%;
+        left: 10%;
+    }   }
 
 
 /* FIN DE NOSOTROS HTML */
@@ -426,7 +436,7 @@ footer {
 .container_productos {
     margin-top: 2px;
     list-style: none;
-    background-color:$second-color;
+    background-color: $second-color;
     width: auto;
     ul li {
         text-decoration: none;
@@ -435,6 +445,7 @@ footer {
         display: inline-block;
         padding: 0px 4px;
         margin-right: 35px;
+        
     } }
 
 .navItemLista {    
